@@ -1,0 +1,22 @@
+.Btn {
+    margin-left: 225px;
+    margin-right: 12px;
+    background: #71C838;
+    max-width: 119px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    background-color:#43a104;
+}
+
+.BtnComment {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+}

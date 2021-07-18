@@ -1,0 +1,41 @@
+.Email {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.EmailText {
+    font-size: 21px;
+    line-height: 19px;
+    margin-top: 4px;
+    margin-right: 36px;
+}
+
+.EmailField {
+    width: 330px;
+    height: 25px;
+    border: 1px solid #999999;
+    margin-right: 18px;
+}
+
+.EmailRequire {
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.Agreement {
+    display: flex;
+}
+
+.AgreementText {
+    font-size: 21px;
+    line-height: 19px;
+    margin-top: -2px;
+    margin-right: 114px;
+}
+
+.AgreementCondition {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,49 @@
+.Greetings {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.Hello {
+    color: #666666;
+}
+
+.Status {
+    margin-top: 40px;
+    margin-left: 123px;
+}
+
+.StatusLink {
+    text-decoration: none;
+    border-bottom: 1px dashed #000080;
+}
+
+.StatusLink:hover {
+    color: #f00000;
+}
+
+.Tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.TooltipText {
+    width: 503px;
+    height: 46px;
+    background: #EAEAEA;
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+
+   
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
