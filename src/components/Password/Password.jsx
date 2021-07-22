@@ -7,7 +7,7 @@ const PasswordForm = () => {
       <div className={style.Password}>
         <p className={style.PasswordText}>Пароль</p>
         <div>
-          <input className={style.PasswordField} type="text" />
+          <input className={style.PasswordField} type="text" required />
           <span className={style.PasswordRequire}>
             Ваш новый пароль должен содержать не менее 5 символов.
           </span>
@@ -16,7 +16,7 @@ const PasswordForm = () => {
       <div className={style.PasswordRetry}>
         <p className={style.PasswordRetryText}>Пароль ещё раз</p>
         <div>
-          <input className={style.PasswordRetryField} type="text" />
+          <input className={style.PasswordRetryField} type="text" required />
           <span className={style.PasswordRetryRequire}>
             Повторите пароль, пожалуйста, это обезопасит вас с нами на случай
             ошибки.

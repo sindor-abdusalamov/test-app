@@ -6,7 +6,13 @@ const EmailForm = () => {
     <div>
       <div className={style.Email}>
         <p className={style.EmailText}>Электронная почта</p>
-        <input className={style.EmailField} type="text" />
+        <input
+          className={style.EmailField}
+          type="text"
+          required
+          pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+          title="Invalid email address"
+        />
         <span className={style.EmailRequire}>
           Можно изменить адрес, указанный при регистрации.
         </span>
